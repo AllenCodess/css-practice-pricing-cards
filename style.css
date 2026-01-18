@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+.container {
+    width: 90%;
+    max-width: 1250px;
+    margin: auto;
+}
+
+.div-pricing-card-flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    column-gap: 4rem;
+}
+
+.pricing-header {
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.pricing-text {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.pricing-card {
+    border: black solid 2px;
+    width: 320px;
+    height: 500px;
+    padding: 2rem;
+    border-radius: 10px;
+
+}
+
+.plan-title {
+    border: black solid 1px;
+    width: 100px;
+    padding: .3rem 1rem;
+    border-radius: 30px;
+}
+
+.plan-cost {
+    padding: .8rem;
+}
+
+.plan-description {
+    padding-bottom: 1rem;
+}
+
+.divider {
+    width: 90%;
+    height: 1px;
+    background-color: black;
+    margin: 0 auto;
+
+}
+
+.list-format {
+    padding-top: 10px;
+}
+
+.list-items {
+    padding: 5px;
+}
+
+.btn-container {
+    text-align: center;
+}
+.end {
+    width: 70%;
+    margin-top: 60%;
+    padding: .5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
