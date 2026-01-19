@@ -40,6 +40,7 @@ body {
     height: 500px;
     padding: 2rem;
     border-radius: 10px;
+    position: relative;
 
 }
 
@@ -52,6 +53,10 @@ body {
 
 .plan-cost {
     padding: .8rem;
+}
+
+.smalltext {
+    font-size: 12px;
 }
 
 .plan-description {
@@ -71,16 +76,29 @@ body {
 }
 
 .list-items {
-    padding: 5px;
+    padding: 3px;
 }
 
 .btn-container {
     text-align: center;
+    
 }
 .end {
     width: 70%;
-    margin-top: 60%;
+    position: absolute;
     padding: .5rem;
     border-radius: 5px;
     cursor: pointer;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 12px;
+}
+
+.blue-bg {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+
 }
